@@ -1,0 +1,11 @@
+queue:
+  enabled: true
+  queue_server: "auth"
+  after_queue_server: "mlg_rush"
+  max_size_of_server: 1 #Leave 0 if you want to pick automatically from bungeecord slots.
+  premium_queue:
+    enabled: true
+    permission: "tevuqueue.premium"
+  admin_queue:
+    enabled: true
+    permission: "*"
